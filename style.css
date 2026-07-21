@@ -354,6 +354,31 @@ img{
 .about-col-1 img:hover{
     transform:scale(1.05);
 }
+.header-image img,
+.about-col-2 img{
+    transition:.5s;
+}
+.header-image img:hover,
+.about-col-2 img:hover{
+    transform: scale(1.05);
+}
+.project-card img{
+
+    width:100%;
+
+    border-radius:12px;
+
+    transition:.4s;
+
+    box-shadow:0 10px 20px rgba(0,0,0,.15);
+
+}
+
+.project-card img:hover{
+
+    transform:scale(1.03);
+
+}
 @media only screen and (max-width:768px){
 
     nav{
@@ -515,9 +540,16 @@ nav ul li a:hover::after{
 .project-info h2{
     margin-bottom:15px;
 }
-
 .project-info p{
-    color:#cfcfcf;
+    color:white;
+    line-height:1.7;
+    margin-bottom:15px;
+}
+.project-info h3{
+    margin-bottom: 15px;
+}
+.project-info p h3{
+    color:white;
     line-height:1.7;
     margin-bottom:15px;
 }
@@ -556,7 +588,7 @@ nav ul li a:hover::after{
 
 .btn-secondary:hover{
     background:#00ff15;
-    color:white;
+    color:black;
 }
 .hero h1{
     font-size:60px;
@@ -571,13 +603,13 @@ nav ul li a:hover::after{
 
 .hero p{
     line-height:1.8;
-    color:white;
+    color:black;
     max-width:600px;
 }
 .hero-image img{
     width:350px;
     border-radius:50%;
-    border:6px solid white;
+    border:6px solid black;
     box-shadow:0 15px 35px rgba(0,0,0,.2);
 }
 header{
@@ -586,7 +618,7 @@ header{
     top:0;
     left:0;
     z-index:1000;
-    background:white;
+    background:black;
     box-shadow:0 2px 10px rgba(0,0,0,.1);
 }
 html{
@@ -596,7 +628,7 @@ section{
     padding:100px 10%;
 }
 .project-card{
-    background:#fff;
+    background:black;
     border-radius:20px;
     padding:25px;
     box-shadow:0 10px 25px rgba(0,0,0,.08);
